@@ -1,0 +1,9 @@
+__pycache__
+.pytest_cache
+*.egg-info
+.eggs
+.idea
+venv
+deploy/build
+deploy/dist
+deploy/pylint.log
