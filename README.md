@@ -2,16 +2,16 @@
 
 A library for template generation of synchronous and asynchronous functions in Python.
 
-* [Release Notes](#Release Notes)
-* * [Version 0.0.1](#Version 0.0.1)
-* * [Version 1.0.0](#Version 1.0.0)
-* [Installation](#Installation)
-* [Quick start](#Quick start)
-* [User guide](#User guide)
-* * [Manager](#Manager)
-* * [Root manager](#Root manager)
-* * [Call object](#Call object)
-* * [Template function](#Template function)
+* [Release Notes](#release-notes)
+* * [Version 0.0.1](#version-0.0.1)
+* * [Version 1.0.0](#version-1.0.0)
+* [Installation](#installation)
+* [Quick start](#quick-start)
+* [User guide](#user-guide)
+* * [Manager](#manager)
+* * [Root manager](#root-manager)
+* * [Call object](#call-object)
+* * [Template function](#template-function)
 * [Examples](#Examples)
 
 ## Release Notes
