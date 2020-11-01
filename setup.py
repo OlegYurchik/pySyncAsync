@@ -4,13 +4,17 @@ from os.path import join, dirname
 
 setup(
     name="pySyncAsync",
-    version="0.0.1",
-    author="Oleg Yurchik",
-    author_email="oleg.yurchik@protonmail.com",
+    version="1.0.0",
     url="https://github.com/OlegYurchik/pySyncAsync",
+
     description="",
     long_description=open(join(dirname(__file__), "README.md")).read(),
-    packages=find_packages(exclude=["tests"]),
-    tests_require=["pytest", "pytest-asyncio", "pytest-random-order"],
-    test_suite="tests",
+    long_description_content_type="text/markdown",
+
+    author="Oleg Yurchik",
+    author_email="oleg.yurchik@protonmail.com",
+
+    packages=find_packages(),
+    tests_require=["pytest", "pytest-asyncio"],
+    test_suite="pysyncasync.tests",
 )
